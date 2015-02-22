@@ -72,7 +72,7 @@ app.get('/', function (req, res) {
         }
 
         res.render('home', {
-            'STREAMER-SERVER': 'http://local.dev:8080',
+            'STREAMER-SERVER': process.env.STREAMER_SERVER || 'http://local.dev:8080',
             rankings: scores,
             total: scores.length
         });
