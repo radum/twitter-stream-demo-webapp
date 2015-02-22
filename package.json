@@ -1,13 +1,17 @@
 {
   "name": "twitter-api-streamm",
   "version": "0.1.0",
-  "description": "",
+  "description": "This one is the frontend that uses SSE to tap in the streamer app data and increments the scores.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "radum",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:radum/twitter-stream-demo-webapp.git"
+  },
   "dependencies": {
     "express": "^4.11.2",
     "express-handlebars": "^1.2.1",
