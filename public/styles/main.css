@@ -1,0 +1,30 @@
+.item {
+    width: 300px;
+
+    color: #333;
+    background-color: #efefef;
+    border-color: #dddddd;
+
+    padding: 6px 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    touch-action: manipulation;
+    cursor: point
+
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.highlight_score_update_trans {
+    background-color: lightblue;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    transition: all 0s;
+}
