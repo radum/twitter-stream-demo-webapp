@@ -2,7 +2,7 @@
 
 var express = require('express');
 var exphbs  = require('express-handlebars');
-var RSVP = require('RSVP');
+var RSVP = require('rsvp');
 var path = require('path');
 var _ = require('lodash');
 var countries = require('./countries.json');
