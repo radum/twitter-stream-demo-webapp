@@ -13,7 +13,7 @@
     "url": "git@github.com:radum/twitter-stream-demo-webapp.git"
   },
   "dependencies": {
-    "express": "^4.11.2",
+    "express": "^4.17.3",
     "express-handlebars": "^3.1.0",
     "lodash": "^3.3.0",
     "redis": "^3.0.2",
